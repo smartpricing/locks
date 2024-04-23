@@ -28,5 +28,20 @@
   "homepage": "https://github.com/smartpricing/locks#readme",
   "devDependencies": {
     "standard": "^17.1.0"
-  }
+  },
+  "dependencies": {
+    "etcd3": "^1.1.2",
+    "ioredis": "^5.4.1",
+    "pg": "^8.11.5",
+    "uuid": "^9.0.1"
+  },
+  "keywords": [
+    "locks",
+    "mutex",
+    "concurrent",
+    "redis",
+    "cassandra",
+    "etcd",
+    "semaphore"
+  ]  
 }
