@@ -1,0 +1,32 @@
+{
+  "name": "api.template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "chmod +x .hooks/pre-commit && git config core.hooksPath .hooks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "ignore": [
+      "tests/*",
+      "dev/*",
+      "docs/*",
+      "usage-examples/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartpricing/api.template.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartpricing/api.template.js/issues"
+  },
+  "homepage": "https://github.com/smartpricing/api.template.js#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
