@@ -1,3 +1,3 @@
-# SP API TEMPLATE (js)
+# Smart Locks
 
 ## Setup

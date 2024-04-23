@@ -1,5 +1,5 @@
 {
-  "name": "api.template",
+  "name": "smartlocks",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartpricing/api.template.js.git"
+    "url": "git+https://github.com/smartpricing/locks.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/smartpricing/api.template.js/issues"
+    "url": "https://github.com/smartpricing/locks/issues"
   },
-  "homepage": "https://github.com/smartpricing/api.template.js#readme",
+  "homepage": "https://github.com/smartpricing/locks#readme",
   "devDependencies": {
     "standard": "^17.1.0"
   }
